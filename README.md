@@ -3,6 +3,8 @@
     - super resolution lab clone coding
     - Enhance low resolution to high resolution using CNN
 
+![result1000.png](https://github.com/yhhyunn/super_resolution_clone/raw/master/result_img/result1000.png)
+
 # Reference
 
 - Youtube : https://www.youtube.com/watch?v=VxRCku4Bkgg
