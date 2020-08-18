@@ -54,9 +54,9 @@ class DataGenerator(keras.utils.Sequence):
         for i, ID in enumerate(list_IDs_temp):
             # Store sample
             X[i] = np.load(ID)
-
-            splited = ID.split('/')
+            splited = ID.split(os.sep)
             splited[-2] = 'y' + splited[-2][1:]  # x_train -> y_train
+            splited[0] = splited[0] + os.sep
             y_path = os.path.join(os.sep, *splited)
 
             # Store class

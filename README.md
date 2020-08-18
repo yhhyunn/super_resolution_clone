@@ -10,6 +10,9 @@
 - Paper : https://arxiv.org/abs/1609.07009
 - Dataset : https://www.kaggle.com/jessicali9530/celeba-dataset/data?select=img_align_celeba
 - scikit-image(skimage).transform pyramid_reduce : http://persci.mit.edu/pub_pdfs/pyramid83.pdf
+- GPU 사용시 Out of memory 해결을 위한 Reference
+  1. https://www.tensorflow.org/guide/gpu?hl=ko
+  2. https://inpages.tistory.com/155
 
 # Dependancies
 
@@ -20,4 +23,12 @@
     - scikit-image
     - matplotlib
 
+# System
+
+    - Windows 10
+    - Ryzen 9 3900X
+    - RTX 2070 Super
+
 # Etc.
+
+    Refer to requirements.txt
